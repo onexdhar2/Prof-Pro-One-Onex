@@ -14,7 +14,7 @@
   font-weight: bold;
   color: white;
   font-size: 20px;
-  border: 1px solid #FD6E0A;
+  border: 1px solid #fd6e0a;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -27,10 +27,10 @@ a {
 }
 header {
   background-color: #fff8f3;
-  padding-top: 51px ;
+  padding-top: 51px;
   background-image: url(/images/developer.png), url(/images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left,bottom right;
+  background-position: top left, bottom right;
 }
 nav {
   width: 71%;
@@ -56,33 +56,72 @@ nav .menu a {
   color: #474747;
 }
 /* banner part */
-#banner{
-    margin-left: 180px;
-    margin-right: 12px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#banner {
+  margin-left: 180px;
+  margin-right: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
 }
-.baner-content{
+.baner-content {
   max-width: 585px;
 }
-.baner-content h3{
-    font-size: 45px;
-    color: #474747;
-    font-weight: bold;
+.baner-content h3 {
+  font-size: 45px;
+  color: #474747;
+  font-weight: bold;
 }
-.baner-content h1{
-    font-size: 85px;
-    font-weight: bold;
-    color: black;
-  }
-  .baner-content p{
-    font-size: 18px;
-    color: #757575;
-    margin-bottom: 33px;
+.baner-content h1 {
+  font-size: 85px;
+  font-weight: bold;
+  color: black;
 }
-.banner-img img{
+.baner-content p {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 33px;
+}
+.banner-img img {
   max-width: 584px;
   vertical-align: middle;
   margin-top: 46px;
+}
+/* about */
+.about {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #fff8f3;
+  padding: 131px 156px;
+}
+.about-heading {
+  text-align: center;
+}
+.about-heading h4 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.about-heading p {
+  line-height: 30px;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.about-info .info h2 {
+  line-height: 30px;
+  font-weight: 20px;
+  color: #757575;
+}
+.about-info .info h3 {
+  line-height: 30px;
+  font-weight: 20px;
+  color: hsl(0, 2%, 20%);
 }
