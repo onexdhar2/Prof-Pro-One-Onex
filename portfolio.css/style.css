@@ -30,7 +30,7 @@ header {
   padding-top: 51px;
   background-image: url(/images/developer.png), url(/images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position:  top left, bottom right;
 }
 nav {
   width: 71%;
@@ -97,6 +97,7 @@ nav .menu a {
 }
 .about-heading {
   text-align: center;
+  max-width: 827px;
 }
 .about-heading h4 {
   font-size: 35px;
@@ -125,3 +126,180 @@ nav .menu a {
   font-weight: 20px;
   color: hsl(0, 2%, 20%);
 }
+/* skill */
+.skill-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 130px 130px 80px 130px;
+}
+.skill-container .section-heading h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+.skill-container .section-heading {
+  text-align: center;
+}
+.skill-container .section-heading p {
+  line-height: 30px;
+  font-size: 18px;
+  color: #757575;
+}
+.skill-box {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+  padding: 0 230px ;
+}
+.skill-box .skill-card {
+  border-radius: 5px;
+  box-shadow: 0 6px 50px #cdc7c7;
+  padding: 20px;
+}
+.skill-box .skill-card img {
+  margin-bottom: 30px;
+}
+.skill-box .skill-card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.skill-box .skill-card p {
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+}
+/* resume */
+#resume{
+  margin-top: 130px;
+}
+.resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.resume-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  text-align: center;
+  margin-bottom: 113px;
+}
+.resume-card {
+  display: flex;
+  gap: 71px;
+}
+.resume-card .my-education .card h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.resume-card .my-experience .card h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.resume-card .my-education .card h4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.resume-card .my-experience .card h4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.resume-card .my-education .card h5 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume-card .my-experience .card h5 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume-card .my-experience .card p {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.resume-card .my-education .card p {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.text-center {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 113px;
+}
+.horizon {
+  width: 558px;
+  color: #d1d1d1;
+  margin-bottom: 30px;
+}
+
+/* footer */
+#footer {
+  padding: 130px 0;
+  background-color: #fff8f3;
+}
+footer .footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container .contact {
+  max-width: 562px;
+}
+.footer-container .contact h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.footer-container .contact p {
+  font-size: 16px;
+  color: #757575;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.footer-container .icon {
+  display: flex;
+  gap: 20px;
+}
+form {
+  max-width: 461px;
+}
+form h2 {
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+form input[type="text"] {
+  width: 461px;
+  padding: 18px 349px 18px 30px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+form input[type="text"] {
+  width: 461px;
+  padding: 18px 349px 18px 30px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+form input[type="email"],input[type="email"],textarea  {
+  width: 461px;
+  padding: 18px 349px 18px 30px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
